@@ -1,0 +1,103 @@
+body {
+    background-color: rgba(224, 221, 228, 0.942);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 4, 255);
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #0c0101;
+}
+
+
+.hobbies-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.hobbies-container ul {
+    display: inline-block;
+    text-align: left;
+}
+
+
+.hobbies-img {
+    border-radius: 12px;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #bfbebe;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+a[href*="globo.com"]:hover {
+    color: red;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#meuBotao {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#meuBotao:hover {
+  background-color: #f20909;
+}
+
+#meuBotao:active {
+  transform: scale(0.95);
+}
+
+#meuBotao.mensagem {
+  background-color: #28a745;
+}
+
+

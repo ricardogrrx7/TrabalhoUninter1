@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Matias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ricardo Matias Feitosa</h1>
+
+    <p>
+        Meu nome é Ricardo Matias Feitosa, tenho 24 anos, sou morador de Bom Jesus das Selvas - MA. Sou apaixonado por tecnologia, mesmo tendo minhas dificuldades de compreender rápido certos assuntos, apaixonado por programação e música. Estou cursando Análise e Desenvolvimento de Sistemas, sempre buscando conhecimento na área.
+    </p>
+
+  <button id="meuBotao" onclick="mostrarMensagemTemporaria()">Clique para ver uma mensagem!</button>
+
+  <script>
+    function mostrarMensagemTemporaria() {
+      const botao = document.getElementById('meuBotao');
+      const textoOriginal = botao.textContent;
+
+    
+      botao.textContent = "Tenha uma ótima semana! 😄";
+
+
+      setTimeout(() => {
+        botao.textContent = textoOriginal;
+      }, 3000);
+    }
+  </script>
+
+<div class="hobbies-container">
+    <h2>Meus Hobbies</h2>
+    <ul>
+        <li>Ouvir músicas</li>
+        <li>Assistir Séries</li>
+        <li>Ler livros</li>
+    </ul>
+
+    <img src="ouvir musicas.jpeg" alt="Pessoa ouvindo música" class="hobbies-img">
+</div>
+    
+        
+              
+    <br>
+
+    <table>
+        <tr>
+         <th>Países que um dia irei visitar:</th>
+               <th>Bandeira</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="japao.png" width="80" alt="Japão"></td>
+        </tr>
+        <tr>
+            <td>Itália</td>
+            <td><img src="italia.png" width="80" alt="Itália"></td>
+        </tr>
+        <tr>
+            <td>Canadá</td>
+            <td><img src="canada.png" width="80" alt="Canadá"></td>
+        </tr>
+    </table>
+
+    <a href="https://www.globo.com">www.g1.globo.com</a>
+</body>
+</html>
